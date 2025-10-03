@@ -16,8 +16,8 @@ guj=int(input("Enter your Gujarati marks==>"))
 total=math+english+guj
 
 avg= (total)/3
-grade=calculate_grade(avg)
 
+grade = calculate_grade(avg)
 print(f'Total of All Subject==>{total}')
 print(f'Your Avg is ==>{avg}')
 print(f'Your grade is ==>{grade}')
